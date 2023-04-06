@@ -16,5 +16,6 @@ btnReset.addEventListener('click', function () {
     cuadrados.forEach(function (cuadrado) {
         cuadrado.textContent = '';
         cuadrado.removeAttribute('jugador-data'); //Borrado de atributos
+        cuadrado.removeAttribute('jugador-data');
     });
 });
