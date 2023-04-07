@@ -18,4 +18,6 @@ btnReset.addEventListener('click', function () {
         cuadrado.removeAttribute('jugador-data'); //Borrado de atributos
         cuadrado.removeAttribute('jugador-data');
     });
+const cuadrados = document.querySelectorAll('.cuadrado');
+
 });
